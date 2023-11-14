@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0d0f19;
+}
+
+/* Chat Elements */
+.rce-container-mbox {
+  @apply my-5;
+}
+.rce-mbox {
+  max-width: 65%;
+  background-color: #f2f2f2 !important;
+  box-shadow: none !important;
+}
+
+.rce-mbox.rce-mbox-right {
+  background-color: #3047ec !important;
+}
+
+.rce-mbox-right .rce-mbox-title,
+.rce-mbox-right .rce-mbox-text {
+  @apply text-white;
+}
+
+.rce-mbox-left-notch {
+  fill: #f2f2f2 !important;
+}
+
+.rce-mbox-right .rce-mbox-right-notch {
+  @apply fill-[#3047EC];
+}
